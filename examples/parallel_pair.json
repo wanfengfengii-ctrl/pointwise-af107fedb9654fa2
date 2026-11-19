@@ -1,0 +1,16 @@
+{
+  "recording": "examples/shift.json",
+  "scenarios": [
+    {"pair_id": "pair-boundary", "threshold": "9/4", "decision": "pass"},
+    {"pair_id": "pair-over", "threshold": "2", "decision": "over_limit"}
+  ],
+  "expected": {
+    "profile_id": "ntu-v1",
+    "unit": "NTU",
+    "difference": "9/4",
+    "members": [
+      {"order_id": "A", "bottle_id": "bottle-A", "completion_number": 41, "raw_code": 17, "value": "53/8"},
+      {"order_id": "B", "bottle_id": "bottle-B", "completion_number": 42, "raw_code": 23, "value": "71/8"}
+    ]
+  }
+}

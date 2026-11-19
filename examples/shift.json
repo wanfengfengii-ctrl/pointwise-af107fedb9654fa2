@@ -1,0 +1,11 @@
+{
+  "batch": "day-shift",
+  "profile": "ntu-v1",
+  "orders": [["A", "bottle-A"], ["B", "bottle-B"]],
+  "readings": {"bottle-A": 17, "bottle-B": 23},
+  "prior_slot": [40, 12],
+  "expected": [
+    {"order": "A", "bottle": "bottle-A", "completion": 41, "raw": 17, "value": "53/8", "unit": "NTU", "receipt": "41/A"},
+    {"order": "B", "bottle": "bottle-B", "completion": 42, "raw": 23, "value": "71/8", "unit": "NTU", "receipt": "42/B"}
+  ]
+}
